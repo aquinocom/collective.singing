@@ -136,7 +136,6 @@ class Subscribe(wizard.Wizard):
     ``context`` is required to be of type ``IChannel``.
     """
     steps = ChooseFormatStep, SubscribeStep
-    label = _(u"Fill in the information below to subscribe.")
     success_message = _(
         u"Thanks for your subscription; "
         u"we sent you a message for confirmation.")
